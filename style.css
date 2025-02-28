@@ -125,13 +125,14 @@
 }
 .bg {
     width: 100%;
-    height: 75vh;
+    height: 100%;
     margin-top: 74px;
     background-repeat: no-repeat;
     background-size: cover;
     background-image:url("my img/bg-2.jfif");
     display: flex;
     justify-content: flex-end;
+    object-fit: contain;
 }
 .text{
     text-align: center;
@@ -408,42 +409,42 @@
 }
 @media(max-width:660px){
     .items-1{
-        padding: 30px 20px;
+        padding: 20px 15px;
     }
     .items-2{
-        padding: 30px 20px;
+        padding: 20px 15px;
     }
     .items-3{
-        padding: 30px 20px;
+        padding: 20px 15px;
     }
 }
 @media(max-width:770px){
     .kurta img{
-        height: 230px;
+        height: 220px;
     }
     .kurta{
         max-width: 350px;
-        min-width: 170px;
+        min-width: 160px;
     }
     .kurta button{
         padding: 3px 60px;
     }
     .topei img{
-        height: 230px;
+        height: 220px;
     }
     .topei{
         max-width: 350px;
-        min-width: 170px;
+        min-width: 160px;
     }
     .topei button{
         padding: 3px 60px;
     }
     .perfume img{
-        height: 230px;
+        height: 220px;
     }
     .perfume{
         max-width: 350px;
-        min-width: 170px;
+        min-width: 160px;
     }
     .perfume button{
         padding: 3px 60px;
@@ -479,5 +480,8 @@
     }
     .perfume button{
         padding: 3px 50px;
+    }
+    .bg{
+        position: ;
     }
 }
