@@ -129,7 +129,7 @@
     margin-top: 74px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image:url("my img/bg-2.jfif");
+    background-image:linear-gradient( #0000002d,rgba(0,0,0,0.3)), url("my img/bg-2.jfif");
     display: flex;
     justify-content: flex-end;
     object-fit: contain;
@@ -139,21 +139,21 @@
     font-size: 30px;
     padding: 110px 0px;
     margin-right: 15%;
+    color: #fff;
 }
 .text p{
     font-size: 20px;
     padding: 10px 0px;
-    /* color: #2694b9f5; */
+    
 
 }
 
 .text h4{
     padding: 10px 0px;
-    /* color: #2694b9f5; */
+    
 
 }
 .text h3{
-    /* color: #2694b9f5; */
 }
 .HL{
     text-align: center;
