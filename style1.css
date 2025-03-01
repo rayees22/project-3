@@ -403,6 +403,7 @@
 .rv-list p {
     text-align: center;
     margin: 10px 0px;
+    font-family: Georgia, serif;
 
 
 }
@@ -654,6 +655,7 @@
     .watch button{
         padding: 3px 60px;
     }
+    
 }
 @media(max-width:380px){
     .shirt img{
@@ -696,6 +698,9 @@
     .watch button{
         padding: 3px 50px;
     }
+    .banner img{
+        height: 240px;
+    }
     
 }
 @media(max-width:600px){
@@ -704,4 +709,3 @@
     }
 }
     
-}
