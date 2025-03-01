@@ -300,12 +300,12 @@
 #about{
     background-color: gray;
     background: rgba(0, 0, 0, 0.377);
-    margin:auto;
+    margin: 10px auto;
     padding-top: 20px;
     padding-bottom: 40px;
     width: 95%;
     border-radius: 5px;
-    margin: 20px;
+    
 }
 #about h2{
     text-align: center;
