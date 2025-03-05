@@ -416,9 +416,9 @@
 }
 
 .rv img {
-    height: 15vh;
+    height: 14vh;
     border-radius: 50%;
-    margin:15px auto
+    margin:14px auto
 }
 
 /* .rv {
@@ -594,7 +594,7 @@
         font-size: 10px;
     }
     .rv{
-        min-width: 150px;
+        min-width: 160px;
         min-height: 180px;
     }
     
@@ -700,6 +700,21 @@
     }
     .banner img{
         height: 240px;
+    }
+    .rv h4 {
+        font-size: 13px;
+    }
+
+    .rv img {
+        height: 8vh;
+    }
+
+    .rv p {
+        font-size: 10px;
+    }
+    .rv{
+        min-width: 160px;
+        min-height: 180px;
     }
     
 }
